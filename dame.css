@@ -1,0 +1,52 @@
+.padre{
+display: grid;
+grid-template-columns: 50px 50px 50px 50px 50px 50px 50px 50px;
+grid-template-rows: 50px 50px 50px 50px 50px 50px 50px 50px;
+border: double black;
+width: 400px;
+height:400px;
+
+ transform: skewX(-5deg);
+ /*transform: skewY(-12deg);*/
+
+}
+h1{
+    transform: skewX(-12deg);
+    
+}
+.a{
+background-color:black;
+}
+.b{
+    background-color:white;
+    }
+center{
+    margin-top: 60px;
+}
+body{
+    background-color: hsl(60, 100%, 97%);
+
+}
+
+.img1{
+    float: left;
+    width: 40px;
+    margin-top: -110px;
+
+}
+
+.img2{
+   
+    width: 40px;
+     margin-left: 65%;
+     margin-top: -110px;
+}
+.dad{
+    display: flex;
+}
+.yi{
+    margin-top: -15px;
+}
+.auteur{
+    margin-top: -100px;
+}
